@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(88, 86, 86);
+}
+
+header {
+    height: 200px;
+    background-color: rgb(88, 86, 86);
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 200px;
+    text-shadow: 2px 2px 2px white;
+}
+
+.img-container {
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: grey;
+    margin: 5%;
+    box-shadow: 0 4px 8px 4px rgb(156, 136, 136);
+    transition: 0.3s;
+}
+
+.img-container:hover {
+    box-shadow: 0 4px 8px 4px rgb(68, 62, 62);
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.img-container .desc {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 90px;
+    height: 100px;
+    color: rgba(255, 254, 254, 0.863);
+}
